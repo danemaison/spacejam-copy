@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:black;
+    background-image: url('images/bg_stars.gif');
+    margin:0;
+    height:100vh;
+    width:100%;
+}
+.container{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display:flex;
+    justify-content: center;
+    height:200px;
+}
+.row.top{
+    width:550px;
+}
+.row.middle-top{
+    margin-top:-5px;
+    width:600px;
+    height:130px;
+}
+.row.middle-bottom{
+    justify-content: space-between;
+    width:600px;
+    margin-top:-40px;
+    height:80px;
+}
+.row.bottom{
+    justify-content: space-between;
+    width:360px;
+    height:150px;
+    margin: -20px;
+}
+.item{
+    width:200px;
+    height:100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.shuttle{
+    background-image:url('images/p-pressbox.gif');
+
+    align-self:flex-end;
+}
+.jam-central{
+    background-image: url('images/p-jamcentral.gif');
+    align-self:center;
+}
+.planet-bball{
+    background-image: url('images/p-bball.gif');
+    align-self: flex-start;
+}
+.lunar-tunes{
+    background-image:url('images/p-lunartunes.gif');
+    align-self:center;
+}
+.lineup{
+    background-image: url('images/p-lineup.gif');
+}
+.logo{
+    margin-top:-50px;
+    width:400px;
+    height:180px;
+    background-image: url('images/p-jamlogo.gif');
+}
+.jump-station{
+    background-image: url('images/p-jump.gif');
+    margin-top:-20px;
+}
+.jr-jam{
+    width:160px;
+    background-image: url('images/p-junior.gif');
+}
+.souvenirs{
+    align-self: flex-start;
+    background-image: url('images/p-souvenirs.gif');
+}
+.map{
+    align-self: flex-end;
+    background-image: url('images/p-sitemap.gif');
+}
+.behind-the-jam{
+    align-self: flex-start;
+    background-image: url('images/p-behind.gif');
+}
+.store{
+    background-image: url('images/p-studiostore.gif');
+}
