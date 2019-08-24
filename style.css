@@ -53,14 +53,17 @@ body{
     align-self:flex-end;
 }
 .jam-central{
+    width:60px;
     background-image: url('images/p-jamcentral.gif');
     align-self:center;
 }
 .planet-bball{
+    width:120px;
     background-image: url('images/p-bball.gif');
     align-self: flex-start;
 }
 .lunar-tunes{
+    width:120px;
     background-image:url('images/p-lunartunes.gif');
     align-self:center;
 }
